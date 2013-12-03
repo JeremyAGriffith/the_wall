@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	vertical-align: baseline;
+	font-weight: normal;
+}
+ul,ol{
+	list-style: none;
+	overflow:hidden;
+}
+a{
+	color: #3975E3;
+	text-decoration: none;
+}
+textarea{
+	font-size: 14px;
+}
+
+.caps{
+	text-transform: uppercase;
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.notice{
+	font-size: 9px;
+}
+
+.container{
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+}
+.btn{
+	padding: 8px;
+	color: white;
+	border: 1px solid black;
+}
+	/*****
+	WALL
+	*****/
+	.btn-message{
+		background-color: #3975E3;
+	}
+	.btn-comment{
+		background-color: #60C060;
+	}
+.msg_container{
+	margin-bottom: 10px;
+}
+.msg{
+	margin-bottom: 10px;
+}
+.msg p{
+	margin-left: 10px; 
+}
+.cmt_container{
+	margin-bottom: 10px;
+	margin-left: 15px;
+	color: #777777;
+}
+/*****
+WALL
+*****/
+
+/*****
+GENERAL
+*****/
+#header{
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #60C060;
+	color: white;
+}
+	/*****
+	WALL
+	*****/
+	#header h1{
+		float: left;
+		display: block;
+	}
+	#settings_panel{
+		float: right;
+		height: auto;
+		overflow: hidden;
+		padding-top: 15px;
+	}
+		#settings_panel h3{
+			float: left;
+			margin-right: 20px;
+		}
+		#settings_panel a{
+			float: left;
+		}
+		/*****
+		WALL
+		*****/
+
+#content{
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+/*****
+GENERAL
+*****/
+
+/*****
+SIGNIN
+*****/
+#post_message{
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#post_comment{
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+#register{
+	float: left;
+	height: auto;
+	overflow: hidden;
+	padding: 20px;
+	width: 200px;
+}
+	#register input{
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 150px;
+	}
+	#register label{
+		font-size: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 150px;
+	}
+
+#signin{
+	float: left;
+	height: auto;
+	overflow: hidden;
+	padding: 20px;
+	width: 250px;
+	border-right: 1px solid #DDDDDD;
+}
+	#signin input{
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 240px;
+	}
